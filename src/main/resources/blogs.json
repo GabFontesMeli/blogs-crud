@@ -1,0 +1,16 @@
+[ {
+  "id" : 3,
+  "titulo" : "Games",
+  "nomeDoAutor" : "Carlito",
+  "dataPublicacao" : "20/12/2022"
+}, {
+  "id" : 1,
+  "titulo" : "Futebol",
+  "nomeDoAutor" : "Carlin",
+  "dataPublicacao" : "20/12/2022"
+}, {
+  "id" : 2,
+  "titulo" : "Politica",
+  "nomeDoAutor" : "Jornalista da Globo",
+  "dataPublicacao" : "20/12/2022"
+} ]
