@@ -12,4 +12,10 @@ import lombok.Setter;
 public class Blog {
     private Integer id;
     private String titulo, nomeDoAutor, dataPublicacao;
+
+    public Blog(String titulo, String nomeDoAutor, String dataPublicacao) {
+        this.titulo = titulo;
+        this.nomeDoAutor = nomeDoAutor;
+        this.dataPublicacao = dataPublicacao;
+    }
 }

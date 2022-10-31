@@ -41,7 +41,7 @@ public class BlogController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Blog> delete(@RequestBody Blog updatedBlog, @PathVariable int id) {
+    public ResponseEntity<Blog> update(@RequestBody Blog updatedBlog, @PathVariable int id) {
         return new ResponseEntity<>(blogService.update(updatedBlog, id), HttpStatus.OK);
     }
 }

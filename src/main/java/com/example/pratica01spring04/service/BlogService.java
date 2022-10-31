@@ -56,6 +56,7 @@ public class BlogService implements IBlog{
         if (updatedBlog.isEmpty()) {
             throw new NotFoundException("Não foi possível encontrar um blog com o id " + id + ".");
         }
+
         return updatedBlog.get();
     }
 
